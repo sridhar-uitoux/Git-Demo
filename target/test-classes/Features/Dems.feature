@@ -43,7 +43,7 @@ Feature: Create a single trip in employee login
    |Purpose|Description|Travel_mode|Trip_type|
    |"Client Meeting"|"Test"|"bus"|"overnight"|
    
-   @edittrip1
+   @edittrip20
    Scenario Outline: To add new trip
    Given Click on Add new button
    And Enter the Purpose <Purpose> of trip
