@@ -54,6 +54,10 @@ Feature: Create a single trip in employee login
    And Select the travel mode <Travel_mode> and trip type <Trip_type>
    Then click on trip save button
    
+   Examples:
+   |Purpose|Description|Travel_mode|Trip_type|
+   |"Client Meeting"|"Test"|"bus"|"overnight"|
+   
    
    
 
