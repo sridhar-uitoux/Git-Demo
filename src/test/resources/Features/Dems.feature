@@ -43,6 +43,19 @@ Feature: Create a single trip in employee login
    |Purpose|Description|Travel_mode|Trip_type|
    |"Client Meeting"|"Test"|"bus"|"overnight"|
    
+   @edittrip1
+   Scenario Outline: To add new trip
+   Given Click on Add new button
+   And Enter the Purpose <Purpose> of trip
+   And Select the Start date and End Date
+   And Enter the Description <Description>
+   When Select the trip type
+   Then Select from and To city
+   And Select the travel mode <Travel_mode> and trip type <Trip_type>
+   Then click on trip save button
+   
+   
+   
 
    
    
